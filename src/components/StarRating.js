@@ -1,6 +1,6 @@
 // StarRating.js
 import React, { useState } from 'react';
-import Star from './Star'; // assuming Star.js is in the same directory
+import Star from './Star';
 
 function StarRating() {
   const [rating, setRating] = useState(0);
