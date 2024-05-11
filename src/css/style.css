@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  font-family: "PT Sans", sans-serif;
+}
+
+div {
+  margin-top: 300px;
+  text-align: center;
+}
+
+button {
+  width: 135px;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.stars {
+  font-size: 50px;
+}
+
